@@ -4,10 +4,14 @@ import './index.css';
 import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
 import store from "./Store/store"
+import { Provider } from 'react-redux';
 
 const render = () => {
     fancyLog();
-    return ReactDOM.render(<App />, document.getElementById('root'))
+    return ReactDOM.render(
+    <Provider store={store}>
+        <App />
+    </Provider>, document.getElementById('root'))
 };
 render();
 store.subscribe(render);
