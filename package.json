@@ -7,7 +7,7 @@
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
     "faker": "^4.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.23",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-redux": "^7.2.0",
